@@ -1,0 +1,113 @@
+    html {
+        direction: rtl;
+        background-color: rgb(134, 196, 174);
+    }
+    
+    .top {
+        height: 7rem;
+        padding: 1rem;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .words {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+    }
+    
+    .top span {
+        border-radius: 5px;
+        font-size: 2.5rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    .bottem {
+        width: 100%;
+        height: 4.5rem;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        border-radius: 5px;
+        align-items: center;
+        font-size: x-large;
+    }
+    
+    .refresh,
+    .time {
+        color: white;
+        width: 4rem;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.5rem;
+        border-radius: 5px;
+    }
+    
+    .refresh {
+        background-color: rgb(39, 104, 223);
+    }
+    
+    .time {
+        background-color: rgb(46, 46, 87);
+    }
+    
+    .input {
+        border-radius: 5px;
+        width: 50%;
+        height: 70%;
+        font-size: x-large;
+    }
+    
+    .red {
+        color: red;
+    }
+    
+    .green {
+        color: rgb(1, 192, 1);
+    }
+    
+    .box-select {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .result {
+        display: none;
+        width: 18rem;
+        background-color: rgb(245, 245, 245);
+        border-radius: 10px;
+        margin: 1rem;
+        direction: ltr;
+        transition: all 0.4 ease-in-out;
+    }
+    
+    .result-top {
+        background-color: cornflowerblue;
+        padding: 1rem;
+        color: white;
+    }
+    
+    .result-bottom {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .wpm {
+        text-align: center;
+    }
+    
+    .wpm-number {
+        font-size: xxx-large;
+        color: green;
+    }
+    
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
